@@ -1,0 +1,8 @@
+Scanner sc = new Scanner(System.in);
+		String c;
+		do {
+			System.out.println("Press Y if want to continue..");
+			sc.nextLine();
+			c=sc.nextLine();
+			} while (c.equalsIgnoreCase("y"));
+		sc.close();
